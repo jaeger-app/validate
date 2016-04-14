@@ -3,7 +3,7 @@
   "description" : "A validation wrapper.",
   "require" : {
     "php" : ">=5.4.0",
-    "vlucas/valitron": "dev-master"
+    "vlucas/valitron": "1.*"
   },
   "require-dev" : {
     "phpunit/phpunit" : "4.*"
