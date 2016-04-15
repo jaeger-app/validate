@@ -1,19 +1,20 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/Rules/False.php
+ * @filesource 	./Validate/Rules/ForceFalse.php
  */
-namespace mithra62\Validate\Rules;
+namespace JaegerApp\Validate\Rules;
 
-use mithra62\Validate\AbstractRule;
-if (! class_exists('\\mithra62\\Validate\\Rules\\ForceFalse')) {
+use JaegerApp\Validate\AbstractRule;
+
+if (! class_exists('\\JaegerApp\\Validate\\Rules\\ForceFalse')) {
 
     /**
-     * mithra62 - Force False Rule
+     * Jaeger - Force False Rule
      *
      * Will always throw a false error
      *

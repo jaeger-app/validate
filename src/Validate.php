@@ -70,7 +70,7 @@ class Validate extends Validator
         
         foreach ($files as $file) {
             if (! $file->isDir()) {
-                $name = '\\mithra62\\' . str_replace('/', '\\', str_replace('.php', '', $file->getPathname()));
+                $name = '\\JaegerApp\\' . str_replace('/', '\\', str_replace('.php', '', $file->getPathname()));
                 $class = $name;
                 if (class_exists($class)) {
                     $rule = new $class();
@@ -146,7 +146,7 @@ class Validate extends Validator
      * @param \mithra62\Regex $regex            
      * @return \mithra62\Validate
      */
-    public function setRegex(\mithra62\Regex $regex)
+    public function setRegex(\JaegerApp\Regex $regex)
     {
         $this->regex = $regex;
         return $this;

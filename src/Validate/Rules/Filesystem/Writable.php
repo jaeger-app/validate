@@ -1,19 +1,20 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/Filesystem/Writable.php
+ * @filesource 	./Validate/Filesystem/Writable.php
  */
-namespace mithra62\Validate\Rules\Filesystem;
+namespace JaegerApp\Validate\Rules\Filesystem;
 
-use mithra62\Validate\AbstractRule;
-if (! class_exists('\\mithra62\\Validate\\Filesystem\\Writable')) {
+use JaegerApp\Validate\AbstractRule;
+
+if (! class_exists('\\JaegerApp\\Validate\\Filesystem\\Writable')) {
 
     /**
-     * mithra62 - Writable Validation Rule
+     * Jaeger - Writable Validation Rule
      *
      * Validates that a given input is a writable file or directory
      *

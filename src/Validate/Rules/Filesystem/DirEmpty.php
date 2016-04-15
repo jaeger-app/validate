@@ -1,19 +1,19 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/Filesystem/DirEmpty.php
+ * @filesource 	./Validate/Filesystem/DirEmpty.php
  */
-namespace mithra62\Validate\Rules\Filesystem;
+namespace JaegerApp\Validate\Rules\Filesystem;
 
-use mithra62\Validate\AbstractRule;
-if (! class_exists('\\mithra62\\Validate\\Rules\\Filesystem\\DirEmpty')) {
+use JaegerApp\Validate\AbstractRule;
+if (! class_exists('\\JaegerApp\\Validate\\Rules\\Filesystem\\DirEmpty')) {
 
     /**
-     * mithra62 - Empty Directory Validation Rule
+     * Jaeger - Empty Directory Validation Rule
      *
      * Validates that a given input is an empty directory
      *

@@ -1,19 +1,18 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Exceptions/ValidationException.php
+ * @filesource 	./Exceptions/ValidationException.php
  */
-namespace mithra62\Exceptions;
+namespace JaegerApp\Exceptions;
 
-use mithra62\Exception;
+use JaegerApp\Exception;
 
 /**
- * mithra62 - Validation Exception Object
+ * Jaeger - Validation Exception Object
  *
  * Handles exceptions from the Validation object
  *

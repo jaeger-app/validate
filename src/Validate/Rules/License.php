@@ -1,16 +1,16 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/Rules/Host.php
+ * @filesource 	./Validate/Rules/License.php
  */
-namespace mithra62\Validate\Rules;
+namespace JaegerApp\Validate\Rules;
 
-use mithra62\Validate\AbstractRule;
-use mithra62\License as m62License;
+use JaegerApp\Validate\AbstractRule;
+use JaegerApp\License as m62License;
 if (! class_exists('\\mithra62\\Validate\\Rules\\License')) {
 
     /**

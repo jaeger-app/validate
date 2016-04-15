@@ -1,16 +1,16 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/RuleInterface.php
+ * @filesource 	./Validate/RuleInterface.php
  */
-namespace mithra62\Validate;
+namespace JaegerApp\Validate;
 
 /**
- * mithra62 - Validation Rule Interface
+ * Jaeger - Validation Rule Interface
  *
  * Interface all mithra62 Validation rules must extend
  *

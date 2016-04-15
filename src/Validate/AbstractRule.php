@@ -1,19 +1,19 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/AbstractRule.php
+ * @filesource 	./Validate/AbstractRule.php
  */
-namespace mithra62\Validate;
+namespace JaegerApp\Validate;
 
-use mithra62\Validate\RuleInterface;
-use mithra62\Exceptions\ValidateException;
+use JaegerApp\Validate\RuleInterface;
+use JaegerApp\Exceptions\ValidateException;
 
 /**
- * mithra62 - Abstract Validation Rule
+ * Jaeger - Abstract Validation Rule
  *
  * Contains useful helper methods for the validators
  *

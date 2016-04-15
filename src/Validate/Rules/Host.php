@@ -1,19 +1,20 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Validate/Rules/Host.php
+ * @filesource 	./Validate/Rules/Host.php
  */
-namespace mithra62\Validate\Rules;
+namespace JaegerApp\Validate\Rules;
 
-use mithra62\Validate\AbstractRule;
-if (! class_exists('\\mithra62\\Validate\\Rules\\Host')) {
+use JaegerApp\Validate\AbstractRule;
+
+if (! class_exists('\\JaegerApp\\Validate\\Rules\\Host')) {
 
     /**
-     * mithra62 - Host Rule
+     * Jaeger - Host Rule
      *
      * Checks an input to see if it's a valid host in either IP or URL formats
      *
@@ -40,7 +41,7 @@ if (! class_exists('\\mithra62\\Validate\\Rules\\Host')) {
         /**
          * (non-PHPdoc)
          * 
-         * @see \mithra62\Validate\RuleInterface::validate()
+         * @see \JaegerApp\Validate\RuleInterface::validate()
          * @ignore
          *
          */

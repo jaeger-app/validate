@@ -43,11 +43,5 @@ class ValidateTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('file', $rules);
         $this->assertArrayHasKey('readable', $rules);
         $this->assertArrayHasKey('writable', $rules);
-        $this->assertArrayHasKey('ftp_connect', $rules);
-        $this->assertArrayHasKey('ftp_writable', $rules);
-        $this->assertArrayHasKey('s3_bucket_exists', $rules);
-        $this->assertArrayHasKey('s3_bucket_readable', $rules);
-        $this->assertArrayHasKey('s3_connect', $rules);
-        $this->assertArrayHasKey('s3_bucket_writable', $rules);
     }
 }
